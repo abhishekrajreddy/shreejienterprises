@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/font-awesome.min.css"
+    />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Shreeji Enterprises</title>
+    <link rel="icon" type="image/x-icon" href="main_logo.jpeg" />
+  </head>
+  <body class="font1" style="padding-top: 74px">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark p-2"
+      style="
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+        background-color: #071422;
+      "
+    >
+      <!-- #091a2d -->
+      <img
+        src="main_logo-removebg-preview.png"
+        width="60"
+        height="60"
+        class="d-inline-block align-top ml-5"
+        alt=""
+      />
+      <a class="navbar-brand mt-3" href="#home"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-end mr-2 mt-3 pb-2"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#home"
+              >Home <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div
+      class="container-fluid text-white background_img1"
+      style="height: 100vh; background-color: blue"
+      id="home"
+    >
+      <div class="row d-flex align-items-center h-100">
+        <div class="col-md-7">
+          <h1 class="display-4" style="font-weight: bold">
+            Our <span class="text-warning">Aim</span
+            ><span> is Global Building Transformation</span>
+          </h1>
+        </div>
+        <!-- <div class="col-md mt-5">
+          <p class="lead" style="font-weight: 700">
+            At
+            <span style="font-weight: bold" class="text-warning"
+              >Space Enterprises</span
+            >, where there is a decades of trust legacy, our aim is to deliver
+            outstanding residences and surpass the highest benchmarks. We take
+            great care in all we do, from meticulously renovating historic
+            structures to assembling the brightest brains in style and
+            development. Our notable projects provide unrivaled services,
+            cutting-edge facilities, and facilities that flawlessly plan an
+            occasion of life's greatest moments.
+          </p>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- ----------------------ABOUT US ----------------------------- -->
+
+    <div class="container-fluid p-5" id="about">
+      <div class="row d-flex justify-content-center mt-2 mb-2">
+        <div class="col-md bg_ltgrey rcorners1 mb-2">
+          <span class="d-flex">
+            <h4 class="text_bold">About Us</h4>
+            <span
+              style="
+                display: block;
+                content: '';
+                height: 1px;
+                width: 200px;
+                background-color: #9d9d9c;
+                margin-top: 15px;
+                margin-left: 15px;
+              "
+            ></span>
+          </span>
+
+          <div class="row">
+            <div class="col-md-12 mt-2">
+              <h1 class="display-4 mt-3" style="font-weight: bold">
+                Our <span class="text-warning">Aim</span
+                ><span> is Global Building Transformation </span>
+              </h1>
+            </div>
+            <div class="col-md-12 mt-5">
+              <p class="lead" style="font-weight: 700">
+                At
+                <span style="font-weight: bold" class="text-warning"
+                  >Space Enterprises</span
+                >, where there is a decades of trust legacy, our aim is to
+                deliver outstanding residences and surpass the highest
+                benchmarks. We take great care in all we do, from meticulously
+                renovating historic structures to assembling the brightest
+                brains in style and development. Our notable projects provide
+                unrivaled services, cutting-edge facilities, and facilities that
+                flawlessly plan an occasion of life's greatest moments.
+                <!-- We have
+                successfully delivered Residential, Commercial & Industrial
+                Spaces In Maharashtra & Telangana with essence of modernisation.
+                Having developed over 1 Million Sq.Ft, we have completed about
+                15+ projects providing quality homes and service to over 1000+
+                happy customers with 100% projects receiving full occupation
+                certificate. -->
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md pb-5 bg_ltgrey rcorners1 ml-2 mb-2"
+          style="height: 100%"
+        >
+          <!-- IMAGE  -->
+          <img
+            style="border-radius: 25px; height: 500px; width: 100%"
+            class=""
+            src="group-skyscrapers-construction_433905-4937.jpg"
+          />
+          <div class="d-flex mt-2 rcorners1">
+            <div class="jumbrotron w-50 p-2 bg-light rcorners1 p-2">
+              <h2 class="text_bold text-warning">25<sup>+</sup></h2>
+              <small class="lead text_bold">Years Experience</small>
+            </div>
+            <div class="jumbrotron w-50 p-2 bg-light rcorners1 ml-2 p-2">
+              <h2 class="text_bold text-warning">15</h2>
+              <small class="lead text_bold">Project Developed</small>
+            </div>
+          </div>
+          <div class="d-flex mt-2 text-light rcorners1 text-dark p-2">
+            <div class="jumbrotron w-50 p-2 bg-light rcorners1">
+              <h2 class="text_bold text-warning">3800</h2>
+              <small class="lead text_bold">Happy Families</small>
+            </div>
+            <div class="jumbrotron w-50 bg-light rcorners1 ml-2 p-2">
+              <h2 class="text_bold text-warning">1.5 Lakh</h2>
+              <small class="lead text_bold">Sq.ft Under Construction</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------PROJECT----------------------------- -->
+
+    <div
+      class="p-2 pt-3 pb-2 text-light"
+      style="background-color: #0b1727"
+      id="projects"
+    >
+      <div class="text-center">
+        <h1 class="text-uppercase text_bold">Projects</h1>
+      </div>
+      <div class="container-fluid p-3">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card border border-warning mb-2">
+              <img
+                src="WhatsApp Image 2023-12-26 at 3.38.28 PM.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center text-dark">
+                <h2 class="card-text text-uppercase text_bold">
+                  Sukha kartha Residency
+                </h2>
+                <p class="lead">Bank Colony, Sangareddy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border border-warning mb-2">
+              <img
+                src="WhatsApp Image 2023-12-26 at 3.38.28 PM.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center text-dark">
+                <h2 class="card-text text-uppercase text_bold">
+                  Sai Kiran Residency
+                </h2>
+                <p class="lead">Kothlapur, Sangareddy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border border-warning mb-2">
+              <img
+                src="WhatsApp Image 2023-12-26 at 3.38.28 PM.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center text-dark">
+                <h2 class="card-text text-uppercase text_bold">
+                  Shiv Shakti heights
+                </h2>
+                <p class="lead">Bank Colony, Sangareddy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- ---------------------------------------CONTACT US--------------------------------------------------------------------- -->
+    <div class="contactbg" id="contact">
+      <div class="text-center mb-3 pt-4 pb-1">
+        <h2 class="text-uppercase" style="font-weight: 900">Contact Us</h2>
+        <!-- <h6 class="" style="font-weight: bold">
+            We are just one click or call away
+          </h6> -->
+      </div>
+      <div class="container-fluid contactformbg">
+        <div class="row justify-content-middle">
+          <div class="col-md-6 border p-5">
+            <div class="text-center">
+              <h4 class="text_bold">CONTACT INFO</h4>
+            </div>
+            <div class="mt-5 d-flex">
+              <span>
+                <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+              </span>
+              <div class="ml-5">
+                <h5 class="text-uppercase text-info">SHREEJI Enterprises</h5>
+                <p>
+                  12th Floor, Krushal Commercial Complex, G M Road, West, above
+                  IVY Hotel, Chembur, Mumbai, Maharashtra 400089
+                </p>
+              </div>
+            </div>
+            <div class="mt-5 d-flex">
+              <span>
+                <i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+              </span>
+              <div class="ml-5">
+                <h5 class="text-uppercase text-info">Talk to Us</h5>
+                <p>+91 9898989891</p>
+              </div>
+            </div>
+            <div class="mt-5 d-flex">
+              <span>
+                <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+              </span>
+              <div class="ml-5">
+                <h5 class="text-uppercase text-info">Write to Us</h5>
+                <p>xyz@spaceenterprises.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 border p-5">
+            <div class="text-center">
+              <h4 class="text_bold">WRITE TO US</h4>
+            </div>
+            <form class="mt-5" name="myForm">
+              <div class="form-group mt-3">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  class="form-control"
+                  id="name"
+                  required
+                />
+              </div>
+              <div class="form-group mt-3">
+                <input
+                  type="email"
+                  placeholder="Email ID"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  required
+                />
+              </div>
+              <div class="form-group mt-3">
+                <input
+                  type="number"
+                  placeholder="Mobile No."
+                  class="form-control"
+                  name="mobile"
+                  id="mobile"
+                  required
+                />
+              </div>
+              <div class="form-group mt-3">
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="Message"
+                  name="message"
+                  id="message"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group mt-2"></div>
+            </form>
+            <button class="btn text-uppercase" onclick="validateForm()">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section start -->
+    <footer id="footer" class="p-2 pb-5">
+      <div class="container-fluid">
+        <div class="row justify-content-between">
+          <div class="col-md-4">
+            <div class="useful-link">
+              <h2 class="text-uppercase text_bold mt-4">About Us</h2>
+
+              <div class="use-links">
+                <li>
+                  <a class="disabled text-justify"
+                    >Since 1990, Multi Space Developers Private Limited Is A
+                    Progressive Real Estate Development Company, We Have
+                    Successfully Delivered Residential, Commercial & Industrial
+                    Spaces In Maharashtra & Gujarat With the Essence Of
+                    Modernisation.</a
+                  >
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="useful-link mt-4">
+              <h2 class="text-uppercase text_bold">Useful Links</h2>
+
+              <div class="use-links text-white">
+                <li>
+                  <a href="/home.html"
+                    ><i class="fa-solid fa-angles-right"></i> Home</a
+                  >
+                </li>
+                <li>
+                  <a href="about.html"
+                    ><i class="fa-solid fa-angles-right"></i> About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="/projects"
+                    ><i class="fa-solid fa-angles-right"></i> Projects</a
+                  >
+                </li>
+                <li>
+                  <a href="/contact"
+                    ><i class="fa-solid fa-angles-right"></i> Contact Us</a
+                  >
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="address mt-4">
+              <h2 class="text-uppercase text_bold">Contact Us</h2>
+
+              <div class="address-links">
+                <li class="address1">
+                  <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>12th
+                  Floor, Krushal Commercial Complex, G M Road, West, above IVY
+                  Hotel, Chembur, Mumbai, Maharashtra 400089
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fa fa-phone fa-lg" aria-hidden="true"></i> +91
+                    90904500112</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fa fa-envelope" aria-hidden="true"></i>
+                    mail@1234567.com</a
+                  >
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ////////////////////////////////// -->
+    <div class="container-fluid">
+      <div
+        class="row justify-content-between"
+        style="background-color: black; color: white; font-size: 14px"
+      >
+        <div class="col-8">
+          <p>Copyright @ 2023 Shreeji Enterprises</p>
+        </div>
+        <div class="col-4 text-right">
+          <p>Designed by AR</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  function validateForm() {
+    console.log("e ");
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let mobile = document.getElementById("mobile").value;
+    let message = document.getElementById("message").value;
+
+    // var body = (
+    //   <div style="border: 2px solid black; padding: 2rem">
+    //     <h1>Shreeji Enterprises</h1>
+    //     <p>You have received an enquiry</p>
+    //     <p>
+    //       Name:{" "}
+    //       <span style="text-transform: capitalize;font-weight: bold;">
+    //         {name}
+    //       </span>
+    //     </p>
+    //     <p>
+    //       Email:{" "}
+    //       <span style="text-transform: capitalize;font-weight: bold;">
+    //         {email}
+    //       </span>
+    //     </p>
+    //     <p>
+    //       Mobile:{" "}
+    //       <span style="text-transform: capitalize;font-weight: bold;">
+    //         {mobile}
+    //       </span>
+    //     </p>
+    //     <p>
+    //       Message:{" "}
+    //       <span style="text-transform: capitalize;font-weight: bold;">
+    //         {message}
+    //       </span>
+    //     </p>
+    //   </div>
+    // );
+
+    let body =
+      "Name " +
+      name +
+      "<br/> Email " +
+      email +
+      "<br/> Mobile " +
+      mobile +
+      "<br/> Message " +
+      message;
+
+    if (name == "" || email == "" || mobile == "" || message == "") {
+      alert("Fields must be filled out");
+    } else {
+      console.log({ name, email, mobile, message });
+      Email.send({
+        SecureToken: "4f09667a-fe1a-493d-9af7-100589fe3977",
+        // Username: "shreejienterprises7337@gmail.com",
+        // Password: "323CDFE2A0C44E2EDFBBDC1461B56450994F",
+        // Username: "mstornsws@gmail.com",
+        // Password: "02FFF485771ABC21BBB27EB5462401C8E211",
+        To: "chiragr6@gmail.com",
+        From: "shreejienterprises7337@gmail.com",
+        Subject: "Shreeji Enterprises Enquiry",
+        Body: body,
+      }).then((message) => {
+        console.log(message);
+        if (message == "OK") {
+          Swal.fire({
+            title: "Submitted",
+            text: "Success",
+            icon: "success",
+          });
+          document.getElementById("name").value = "";
+          document.getElementById("email").value = "";
+          document.getElementById("mobile").value = "";
+          document.getElementById("message").value = "";
+        } else {
+          Swal.fire({
+            title: "Error",
+            text: "Try Again",
+            icon: "error",
+          });
+        }
+      });
+    }
+    // if (!name || !email || !mobile || !message) {
+    //   console.log({ name, email, mobile, message });
+    // } else {
+    //   alert("Name must be filled out");
+    // }
+  }
+</script>
