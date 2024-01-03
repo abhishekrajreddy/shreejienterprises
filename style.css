@@ -24,7 +24,7 @@ html {
 .background_img {
   /* background-image: url("/images/group-skyscrapers-construction_433905-4937.jpg"); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/mumbai-skyline-skyscrapers-construction_469504-21.jpg");
+    url("mumbai-skyline-skyscrapers-construction_469504-21.jpg");
   /* background-image: url("/images/WhatsApp\ Image\ 2023-12-26\ at\ 3.38.29\ PM.jpeg"); */
   background-color: #cccccc;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@ html {
       rgba(0, 0, 0, 0) 10%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url("/images/mumbai-skyline-skyscrapers-construction_469504-21.jpg");
+    url("mumbai-skyline-skyscrapers-construction_469504-21.jpg");
 
   /* background-image: url("/images/WhatsApp\ Image\ 2023-12-26\ at\ 3.38.29\ PM.jpeg"); */
   background-color: #cccccc;
@@ -61,7 +61,7 @@ html {
 }
 
 .about_img {
-  background-image: url("/images/group-skyscrapers-construction_433905-4937.jpg");
+  background-image: url("group-skyscrapers-construction_433905-4937.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; /* Resize the background image to cover the entire container */
